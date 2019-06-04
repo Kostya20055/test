@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<div style="display:block;" class="vopros1">
+			<h2>Кем был Леголас в произведении Властелин колец</h2>
+		</div>
+		<div style="display:block;" class="border py-3 px-3 otvet">Гном</div>
+		<div style="display:block;" class="border py-3 px-3 otvet2">Эльф</div>
+		<div style="display:block;" class="border py-3 px-3 otvet3">Человек</div>
+	</div>
+	<div class="container">
+		<div style="display:none; " class="vopros">
+			<h2>Какой из драконов был у Корля лича?</h2>
+		</div>
+		<div style="display:none;" class="border py-3 px-3 otvet4">Синдрагоса</div>
+		<div style="display:none;" class="border py-3 px-3 otvet5">Иззера</div>
+		<div style="display:none;" class="border py-3 px-3 otvet6">Смертокрыл</div>
+	</div>
+	<div class="container">
+		<div style="display:none" class="vopros2">
+			<h2>Какая самая длинная река?</h2>
+		</div>
+		<div style="display:none;" class="border py-3 px-3 otvet7">Aазонка</div>
+		<div style="display:none;" class="border py-3 px-3 otvet8">Нил</div>
+		<div style="display:none;" class="border py-3 px-3 otvet9">Миссисипи</div>
+	</div>
+	<script type="text/javascript">
+		document.querySelector(".otvet")
+		document.querySelector(".otvet2")
+		document.querySelector(".otvet3")
+		document.querySelector(".otvet").onclick = function(){alert("нет нет нет")}
+		document.querySelector(".otvet2").onclick = function(){
+			alert("молодец");
+			document.querySelector(".vopros").style.display = "block";
+			document.querySelector(".otvet4").style.display = "block";
+			document.querySelector(".otvet5").style.display = "block";
+			document.querySelector(".otvet6").style.display = "block";
+			document.querySelector(".otvet").style.display = "none";
+			document.querySelector(".otvet2").style.display = "none";
+			document.querySelector(".otvet3").style.display = "none";
+			document.querySelector(".vopros1").style.display = "none";
+		}
+		document.querySelector(".otvet3").onclick = function(){alert("подумай еще")}
+		document.querySelector(".otvet4")
+		document.querySelector(".otvet5")
+		document.querySelector(".otvet6")
+		document.querySelector(".otvet4").onclick = function(){
+			alert("да да")
+			document.querySelector(".vopros2").style.display = "block";
+			document.querySelector(".otvet7").style.display = "block";
+			document.querySelector(".otvet7").style.display = "block";
+	}
+		document.querySelector(".otvet5").onclick = function(){alert("нет нет ")}
+		document.querySelector(".otvet6").onclick = function(){alert("неа")}
+		document.querySelector(".otvet7")
+		document.querySelector(".otvet8")
+		document.querySelector(".otvet9")
+		document.querySelector(".otvet7").onclick = function(){alert("отлично")}
+		document.querySelector(".otvet7").onclick = function(){alert("(((((")}
+		document.querySelector(".otvet7").onclick = function(){alert("мимо")}
+	</script>
+
+
+</body>
+</html>
